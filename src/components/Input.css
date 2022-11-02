@@ -1,0 +1,45 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  margin: 0;
+  outline: none;
+  border: none;
+  width: 300px;
+  font-family: inherit;
+  line-height: 20px;
+  resize: none;
+  box-shadow: 0 2px 5px #ccc;
+  padding-left: 10px;
+}
+
+.title-input {
+  font-weight: bold;
+  line-height: 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-input {
+  box-shadow: none;
+  padding-bottom: 10px;
+}
+
+.buttonWrap-add {
+  position: relative;
+  background: #f5ba13;
+  color: white;
+  bottom: 10px;
+  right: -115px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0;
+}
+
+.buttonWrap-add:hover {
+  background: grey;
+  transition: 250ms;
+}

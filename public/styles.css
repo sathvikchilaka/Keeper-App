@@ -1,0 +1,23 @@
+body {
+  background: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(182, 182, 182);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(145, 145, 145);
+}

@@ -1,0 +1,13 @@
+.header {
+  background: #f5ba13;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+
+.heading {
+  color: #ffffff;
+  margin: 0 0 0 30px;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}

@@ -1,0 +1,29 @@
+.flexContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.MuiPaper-root {
+  border-radius: 10px !important;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.addNote {
+  background: #f5ba13;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 30px;
+  margin-bottom: 0;
+  transform: scale(1.2);
+}
+
+.addNote:hover {
+  background: grey;
+  transition: 250ms;
+}
